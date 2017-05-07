@@ -164,7 +164,7 @@
 	// U P D A T E HANDLE (no longer)
 	update = {
 		name: 'WhutBBCode?',
-		version: 4810
+		version: 4900
 	};
 
 	ie = !document.body.addEventListener && document.selection;
