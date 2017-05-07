@@ -2,6 +2,14 @@
 
 Note: As of version 3.0, "WhutBBCode?" has been renamed, so you might have to uninstall previous versions of "WhutBBCode? for What.CD and Waffles.fm" from your user scripts in Greasemonkey/Tampermonkey.
 
+![WhutBBCode? Image](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
+
+### Install and Source
+
+Install it from Greasy Fork . . . [https://greasyfork.org/en/scripts/1024-whutbbcode](https://greasyfork.org/en/scripts/1024-whutbbcode "WhutBBCode? Install")
+
+Check out the source . . . [https://github.com/hateradio/wbb](https://github.com/hateradio/wbb "WhutBBCode? Source Code")
+
 ### Compatibility
 
 Most Gazelle sites are also compatible; however, they have to be included manually. **If you want me to add a site, please send me a message.**
