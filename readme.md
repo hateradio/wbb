@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Version Info
 
+#### Version 4.9.1
+
+*   adds update check with github json link (cors support)
+
 #### Version 4.9
 
 *   fix width when in sidebar
