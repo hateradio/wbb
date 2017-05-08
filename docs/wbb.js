@@ -1,1 +1,0 @@
-wbbupdt({"name":"WhutBBCode?","version":4910,"page":"https://greasyfork.org/en/scripts/1024-whutbbcode"})
