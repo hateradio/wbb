@@ -1060,7 +1060,6 @@
 						var txt = document.getElementById('dynamic_form');
 						
 						if (txt) {
-							window.clearInterval(interv);
 							WhutBB.factory();
 							return WhutBB.set[RegExp.lastParen].show();
 						}
