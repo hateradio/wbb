@@ -498,20 +498,22 @@
 		dom.css(WhutBB.$.data.css());
 		WhutBB.db.setupShortcutMap();
 		WhutBB.Panel.construct();
+		// #content block for Gazelle only
 		if (document.getElementById('content')) {
 			dom.evt(document.getElementById('content'), 'click', WhutBB.evt.delegate.edit);
 			if (document.getElementById('messageform')) {
 				dom.evt(document.getElementById('messageform'), 'click', WhutBB.evt.delegate.inbox);
 			}
-		}
-		if (document.getElementById('type')) {
-			dom.evt(document.getElementById('type'), 'change', WhutBB.evt.delegate.report);
 			
-			var interv = window.setInterval(function () {
-				window.clearInterval(interv);
-				WhutBB.factory();
-				return WhutBB.set[RegExp.lastParen].show();
-			}, 500);
+			if (document.getElementById('type')) {
+				dom.evt(document.getElementById('type'), 'change', WhutBB.evt.delegate.report);
+			
+				var interv = window.setInterval(function () {
+					window.clearInterval(interv);
+					WhutBB.factory();
+					return WhutBB.set[RegExp.lastParen].show();
+				}, 500);
+			}
 		}
 	};
 
@@ -1054,10 +1056,14 @@
 					interv;
 				
 				if (attr.match(/(?:ChangeReportType\()/)) {
-					interv = window.setInterval(function () {
-						window.clearInterval(interv);
-						WhutBB.factory();
-						return WhutBB.set[RegExp.lastParen].show();
+					window.setTimeout(function () {
+						var txt = document.getElementById('dynamic_form');
+						
+						if (txt) {
+							window.clearInterval(interv);
+							WhutBB.factory();
+							return WhutBB.set[RegExp.lastParen].show();
+						}
 					}, 500);
 				}
 			},
