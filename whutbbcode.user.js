@@ -508,8 +508,7 @@
 			if (document.getElementById('type')) {
 				dom.evt(document.getElementById('type'), 'change', WhutBB.evt.delegate.report);
 			
-				var interv = window.setInterval(function () {
-					window.clearInterval(interv);
+				window.setTimeout(function () {
 					WhutBB.factory();
 					return WhutBB.set[RegExp.lastParen].show();
 				}, 500);
