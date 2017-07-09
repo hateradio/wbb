@@ -1051,8 +1051,7 @@
 			},
 			report: function (evt) {
 				var el = evt.target,
-					attr = el.getAttribute('onchange') || '',
-					interv;
+					attr = el.getAttribute('onchange') || '';
 				
 				if (attr.match(/(?:ChangeReportType\()/)) {
 					window.setTimeout(function () {
