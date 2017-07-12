@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @id             WhutBBCode
 // @name           WhutBBCode?
 // @namespace      hateradio)))
@@ -13,28 +13,24 @@
 // @include        http*://*passtheheadphones.me/*
 // @exclude        http*://*passtheheadphones.me/*logchecker*
 // @exclude        http*://*passtheheadphones.me/user.php?action=notify*
-// @exclude        http*://*passtheheadphones.me/reportsv2.php*
 
 // @include        http*://*redacted.ch/*
 // @exclude        http*://*redacted.ch/*logchecker*
 // @exclude        http*://*redacted.ch/user.php?action=notify*
-// @exclude        http*://*redacted.ch/reportsv2.php*
+
 
 // @include        http*://*gazellegames.net/*
 // @exclude        http*://*gazellegames.net/*logchecker*
 // @exclude        http*://*gazellegames.net/user.php?action=notify*
-// @exclude        http*://*gazellegames.net/reportsv2.php*
 
 // @include        http*://*notwhat.cd/*
 // @exclude        http*://*notwhat.cd/*logchecker*
 // @exclude        http*://*notwhat.cd/user.php?action=notify*
-// @exclude        http*://*notwhat.cd/reportsv2.php*
 
 // @include        http*://*apollo.rip/*
 // @include        http*://*apollo.rip/wiki.php*
 // @exclude        http*://*apollo.rip/*logchecker*
 // @exclude        http*://*apollo.rip/user.php?action=notify*
-// @exclude        http*://*apollo.rip/reportsv2.php*
 
 // @include        http*://*indietorrents.com/*
 
@@ -50,43 +46,36 @@
 // @include        http*://*brokenstones.club/*
 // @exclude        http*://*brokenstones.club/*logchecker*
 // @exclude        http*://*brokenstones.club/user.php?action=notify*
-// @exclude        http*://*brokenstones.club/reportsv2.php*
 // @exclude        http*://*brokenstones.club/tools.php?action=clear_cache*
 
 // @include        http*://*bs.lunartype.com/*
 // @exclude        http*://*bs.lunartype.com/*logchecker*
 // @exclude        http*://*bs.lunartype.com/user.php?action=notify*
-// @exclude        http*://*bs.lunartype.com/reportsv2.php*
 // @exclude        http*://*bs.lunartype.com/tools.php?action=clear_cache*
 
 // @include        http*://*hydra.zone/*
 // @exclude        http*://*hydra.zone/*logchecker*
 // @exclude        http*://*hydra.zone/user.php?action=notify*
-// @exclude        http*://*hydra.zone/reportsv2.php*
 // @exclude        http*://*hydra.zone/tools.php?action=clear_cache*
 
 // @include        http*://*tehconnection.eu/*
 // @exclude        http*://*tehconnection.eu/*logchecker*
 // @exclude        http*://*tehconnection.eu/user.php?action=notify*
-// @exclude        http*://*tehconnection.eu/reportsv2.php*
 // @exclude        http*://*tehconnection.eu/tools.php?action=clear_cache*
 
 // @include        http*://*oppaiti.me/*
 // @exclude        http*://*oppaiti.me/*logchecker*
 // @exclude        http*://*oppaiti.me/user.php?action=notify*
-// @exclude        http*://*oppaiti.me/reportsv2.php*
 // @exclude        http*://*oppaiti.me/tools.php?action=clear_cache*
 
 // @include        http*://*morethan.tv/*
 // @exclude        http*://*morethan.tv/*logchecker*
 // @exclude        http*://*morethan.tv/user.php?action=notify*
-// @exclude        http*://*morethan.tv/reportsv2.php*
 // @exclude        http*://*morethan.tv/tools.php?action=clear_cache*
 
 // @include        http*://*alpharatio.cc/*
 // @exclude        http*://*alpharatio.cc/*logchecker*
 // @exclude        http*://*alpharatio.cc/user.php?action=notify*
-// @exclude        http*://*alpharatio.cc/reportsv2.php*
 // @exclude        http*://*alpharatio.cc/tools.php?action=clear_cache*
 
 // RIP :(
@@ -509,10 +498,20 @@
 		dom.css(WhutBB.$.data.css());
 		WhutBB.db.setupShortcutMap();
 		WhutBB.Panel.construct();
+		// #content block for Gazelle only
 		if (document.getElementById('content')) {
 			dom.evt(document.getElementById('content'), 'click', WhutBB.evt.delegate.edit);
 			if (document.getElementById('messageform')) {
 				dom.evt(document.getElementById('messageform'), 'click', WhutBB.evt.delegate.inbox);
+			}
+			
+			if (document.getElementById('type')) {
+				dom.evt(document.getElementById('type'), 'change', WhutBB.evt.delegate.report);
+			
+				window.setTimeout(function () {
+					WhutBB.factory();
+					return WhutBB.set[RegExp.lastParen].show();
+				}, 500);
 			}
 		}
 	};
@@ -1048,6 +1047,21 @@
 				}
 				if (attr.match(/(?:Cancel_Preview\((\d+))/)) {
 					return WhutBB.set[RegExp.lastParen].show();
+				}
+			},
+			report: function (evt) {
+				var el = evt.target,
+					attr = el.getAttribute('onchange') || '';
+				
+				if (attr.match(/(?:ChangeReportType\()/)) {
+					window.setTimeout(function () {
+						var txt = document.getElementById('dynamic_form');
+						
+						if (txt) {
+							WhutBB.factory();
+							return WhutBB.set[RegExp.lastParen].show();
+						}
+					}, 500);
 				}
 			},
 			inbox: function (evt) { // todo inbox.php
