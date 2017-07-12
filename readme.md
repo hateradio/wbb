@@ -1,7 +1,5 @@
 ## WhutBBCode? Overview
 
-Note: As of version 3.0, "WhutBBCode?" has been renamed, so you might have to uninstall previous versions of "WhutBBCode? for What.CD and Waffles.fm" from your user scripts in Greasemonkey/Tampermonkey.
-
 ![WhutBBCode? Image](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
 
 ### Install and Source
@@ -9,6 +7,8 @@ Note: As of version 3.0, "WhutBBCode?" has been renamed, so you might have to un
 Install it from Greasy Fork . . . [https://greasyfork.org/en/scripts/1024-whutbbcode](https://greasyfork.org/en/scripts/1024-whutbbcode "WhutBBCode? Install")
 
 Check out the source . . . [https://github.com/hateradio/wbb](https://github.com/hateradio/wbb "WhutBBCode? Source Code")
+
+_As of version 3.0, "WhutBBCode?" has been renamed, so you might have to uninstall previous versions of "WhutBBCode? for What.CD and Waffles.fm" from your user scripts in Greasemonkey/Tampermonkey._
 
 ### Compatibility
 
@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Version Info
 
+#### Version 4.9.2
+
+*   adds support for reportsv2.php
+
 #### Version 4.9.1
 
 *   adds update check with github json link (cors support)
@@ -90,13 +94,12 @@ Shortcut keys were only tested in the above-mentioned browsers.
 *   adds apollo support
 *   enabled all possible BBCode tags, thanks inverness
 *   fixes emoticons, thanks toy
-*   Replaces Waffles.fm for ch
-*   Fixes Waffles emoticons
-*   Fixes .gz with .gazelle property
 
 #### Version 3.1
 
-* Replaces Waffles.fm for ch Fixes Waffles emoticons Fixes .gz with .gazelle property
+*   Replaces Waffles.fm for ch
+*   Fixes Waffles emoticons
+*   Fixes .gz with .gazelle property
 
 #### Version 3.0.1 - 3.0.2
 
@@ -128,7 +131,7 @@ For reference, the list above is an unordered list; the list below is an ordered
 3.  This is the third item.
 
 
-### Excluding Textareas from WhutBBCode
+### Excluding Textareas from WhutBBCode?
 
 Note: If you add "noWhutBB" to the class attribute of a textarea, WhutBBCode? will not do anything to to that text box. It will get ignored.
 
