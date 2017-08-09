@@ -89,7 +89,7 @@
 // @exclude        http*://*what.cd/user.php?action=notify*
 // @exclude        http*://*what.cd/reportsv2.php*
 
-// @update         May 07 2017
+// @update         Aug 08 2017
 // @since          Sep 30 2010
 // 2010+, hateradio
 // Please don't modify or edit my script and re-release it. D:
