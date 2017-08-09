@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Version Info
 
+#### Version 4.9.3
+
+ *   adds support for effectdoppler.pw
+
 #### Version 4.9.2
 
 *   adds support for reportsv2.php
