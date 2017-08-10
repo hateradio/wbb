@@ -77,10 +77,10 @@
 // @exclude        http*://*alpharatio.cc/user.php?action=notify*
 // @exclude        http*://*alpharatio.cc/tools.php?action=clear_cache*
 
-// @include        http*://*effectdoppler.pw/*
-// @exclude        http*://*effectdoppler.pw/*logchecker*
-// @exclude        http*://*effectdoppler.pw/user.php?action=notify*
-// @exclude        http*://*effectdoppler.pw/tools.php?action=clear_cache*
+// @include        http*://*efectodoppler.pw/*
+// @exclude        http*://*efectodoppler.pw/*logchecker*
+// @exclude        http*://*efectodoppler.pw/user.php?action=notify*
+// @exclude        http*://*efectodoppler.pw/tools.php?action=clear_cache*
 
 // RIP :(
 
@@ -451,7 +451,7 @@
 				['oppaiti', /(?:oppaiti\.me)/],
 				['morethan', /(?:morethan\.tv)/],
 				['alpharatio', /(?:alpharatio\.cc)/],
-				['effectdoppler', /(?:effectdoppler\.pw)/]
+				['efectodoppler', /(?:efectodoppler\.pw)/]
 				// ['what', /(?:what)\.cd/]
 				// /(?:(last)(?:fm)?\.fm)/,
 			],
@@ -764,7 +764,7 @@
 					blueprint: 'gazelle'
 				};
 			},
-			effectdoppler: function () {
+			efectodoppler: function () {
 				return {
 					emoticonDir: '/static/common/smileys/',
 					emoticons: 'gazelle',
