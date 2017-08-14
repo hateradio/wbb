@@ -52,9 +52,17 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Version Info
 
+#### Version 5
+
+ *   Simplifies Gazelle site inclusion, only requires to use @include
+
+#### Version 4.9.4
+
+ *   adds support for secret-cinema.pw, fixes efectodoppler
+
 #### Version 4.9.3
 
- *   adds support for effectdoppler.pw
+ *   adds support for efectodoppler.pw
 
 #### Version 4.9.2
 
