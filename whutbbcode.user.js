@@ -3,7 +3,7 @@
 // @name           WhutBBCode?
 // @namespace      hateradio)))
 // @author         hateradio
-// @version        5.0
+// @version        5.1
 // @description    This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.
 // @homepage       https://greasyfork.org/en/scripts/1024-whutbbcode
 // @icon           data:image/png;base64,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
@@ -43,7 +43,7 @@
 
 // @include        http*://*what.cd/*
 
-// @update         Aug 13 2017
+// @update         Sep 04 2017
 // @since          Sep 30 2010
 // 2010+, hateradio
 // Please don't modify or edit my script and re-release it. D:
@@ -53,38 +53,41 @@
 
 /**
  * Updates
+ * 5.1
+ *   Removes unnecessary site configurations
+ * 
  * 5
  *   Simplifies Gazelle site inclusion, only requires to use @include
- * 
+ *
  * 4.9.4
  *   adds support for secret-cinema.pw, fixes efectodoppler
- * 
+ *
  * 4.9.3
  *   adds support for efectodoppler.pw
  *
  * 4.9.2
  *   adds support for reportsv2.php
- * 
+ *
  * 4.9.1
  *   adds update check with github json link (cors support)
- * 
+ *
  * 4.9
  *   fix width when in sidebar
  *   adds tehconnection, oppaitime, morethan.tv, alpharatio
  *   remove update check
  *   remove bwtm, nostream
- * 
+ *
  * 4.8
  * + force button container width and text centering
  * + shortcut information on button title
  * + mac shortcut keys
  * + red <=> pth
- * 
+ *
  * 4.7
  * + code and emoticon refactor
  * + pth emoticon
  * + adds hidra.zone support
- * 
+ *
  * 4.6
  * + edit boxes should now work in Chrome
  *
@@ -99,7 +102,7 @@
  * + Replaces Waffles.fm for ch
  * + Fixes Waffles emoticons
  * + Fixes .gz with .gazelle property
- * 
+ *
  * 3.1
  * + Replaces Waffles.fm for ch
  * + Fixes Waffles emoticons
@@ -202,13 +205,43 @@
 			j.type = 'text/javascript';
 			j[/^https?\:\/\//i.test(t) ? 'src' : 'textContent'] = t;
 			this.top.appendChild(j);
-		}
+		},
+		observer: (function () {
+			var M = window.MutationObserver || window.WebKitMutationObserver;
+
+			return M ? function (element, callback) {
+				var obs = new M(function (mutations) {
+					console.log(mutations);
+					if (mutations[0].addedNodes.length > 0) {
+						callback();
+					}
+				});
+				obs.observe(element, {childList: true});
+			} : null;
+		}())
 	};
+
+	function obs (id) {
+		var content = document.getElementById('content' + id);
+		if (!content.hasAttribute('observed')) {
+			console.log('adding observer to', content);
+			dom.observer(content, function () {
+				console.log('observer!', id);
+				var txt = document.getElementById('editbox' + id);
+
+				if (!txt.hasAttribute('data-wbb')) {
+					txt.setAttribute('data-wbb', id);
+					WhutBB.create(txt, true);
+				}
+			});
+			content.setAttribute('observed', true);
+		}
+	}
 
 	// U P D A T E HANDLE
 	update = {
 		name: 'WhutBBCode?',
-		version: 5000,
+		version: 5100,
 		key: 'ujs_WBB_UPDT_HR',
 		urij: 'https://hateradio.github.io/wbb/wbb.json',
 		interval: 5,
@@ -222,7 +255,7 @@
 		},
 		link: function () {
 			this.csstxt();
-			
+
 			var a = document.createElement('a'), b = strg.read(this.key);
 			a.href = b.page || '#';
 			a.id = 'userscriptupdater';
@@ -404,17 +437,10 @@
 				['notwhatcd', /(?:notwhat)\.cd/],
 				['gazellegames', /(?:gazellegames)\.net/],
 				['apollo', /(?:apollo)\.rip/],
-				['brokenstones', /(?:brokenstones\.club)/],
 				['bs', /(?:bs\.lunartype)\.com/],
 				['waffles', /(?:waffles\.ch)/],
 				['indietorrents', /(?:indietorrents\.com)/],
-				['passthepopcorn', /(?:passthepopcorn\.me)/],
-				['hz', /(?:hydra\.zone)/],
-				['tehconnection', /(?:tehconnection\.eu)/],
-				['oppaiti', /(?:oppaiti\.me)/],
-				['morethan', /(?:morethan\.tv)/],
-				['alpharatio', /(?:alpharatio\.cc)/],
-				['efectodoppler', /(?:efectodoppler\.pw)/]
+				['oppaiti', /(?:oppaiti\.me)/]
 				// ['what', /(?:what)\.cd/]
 				// /(?:(last)(?:fm)?\.fm)/,
 			],
@@ -483,10 +509,10 @@
 			if (document.getElementById('messageform')) {
 				dom.evt(document.getElementById('messageform'), 'click', WhutBB.evt.delegate.inbox);
 			}
-			
+
 			if (document.getElementById('type')) {
 				dom.evt(document.getElementById('type'), 'change', WhutBB.evt.delegate.report);
-			
+
 				window.setTimeout(function () {
 					WhutBB.factory();
 					return WhutBB.set[RegExp.lastParen].show();
@@ -888,7 +914,7 @@
 	 * As mentioned earlier, buttons with custom events should find
 	 * a method with that button's name within WhutBB.evt.button.custom
 	 *
-	 * WhutBB instances register themselves with the 
+	 * WhutBB instances register themselves with the
 	 * register methods.
 	 *
 	 * The registers return an annonymous function that
@@ -980,16 +1006,20 @@
 			edit: function (evt) { // RegExp.lastParen should contain an ID
 				var el = evt.target,
 					attr = el.getAttribute('onclick') || '',
+					id,
 					interv;
 
 				if (attr.match(/(?:Edit_Form\('(\d+))/)) {
+					id = RegExp.lastParen;
+					// obs(id);
+					// evt.preventDefault();
 					interv = window.setInterval(function () {
-						var txt = document.getElementById('editbox' + RegExp.lastParen);
+						var txt = document.getElementById('editbox' + id);
 
 						if (txt) {
 							window.clearInterval(interv);
 							console.log('clearing', interv);
-							txt.setAttribute('data-wbb', RegExp.lastParen);
+							txt.setAttribute('data-wbb', id);
 							WhutBB.create(txt, true);
 						}
 					}, 500);
@@ -1004,11 +1034,11 @@
 			report: function (evt) {
 				var el = evt.target,
 					attr = el.getAttribute('onchange') || '';
-				
+
 				if (attr.match(/(?:ChangeReportType\()/)) {
 					window.setTimeout(function () {
 						var txt = document.getElementById('dynamic_form');
-						
+
 						if (txt) {
 							WhutBB.factory();
 							return WhutBB.set[RegExp.lastParen].show();
@@ -1127,7 +1157,7 @@
 
 	/**
 	 * Box Object (aka textarea stuff)
-	 * 
+	 *
 	 * How it works:
 	 *  WhutBB.box.select(textarea).insert(['{start}', '{end}']);
 	 *
@@ -1135,7 +1165,7 @@
 	 *
 	 * Result:
 	 * <textarea>{start}{end}</textarea>
-	 * 
+	 *
 	 * It's (more) magical when used in an event.
 	 */
 	WhutBB.box = {
@@ -1280,12 +1310,12 @@
 	 *      for example, possible options: 'gazelle', 'waffles', 'indie'
 	 *
 	 *    - array: an array of arrays containing emoticons to create
-	 *    
-	 *    the sub-arrays are formed by the emoticon text to insert and the location of the 
+	 *
+	 *    the sub-arrays are formed by the emoticon text to insert and the location of the
 	 *    image to show in the emoticon list
-	 * 
+	 *
 	 *    [ ["text to append to textarea", "url or path to an image"] ]
-	 * 
+	 *
 	 *    any arbitrary string can be appended to the textarea
 	 *
 	 *    example:
@@ -1298,14 +1328,14 @@
 	 *        [':D', 'some-other-dir/grin.png']
 	 *
 	 *    absolute paths are supported
-	 * 
+	 *
 	 *    example:
 	 *        [':]', 'https://emto/ticon.png']
 	 *
 	 *    clicking on the image "https://emto/ticon.png" will append ":]" to the textarea
 	 *
 	 *        ['[img]https://emto/ticon.gif[/img]', 'https://emto/ticon.gif']
-	 *     
+	 *
 	 *    in the second example, the string "[img]https://emto/ticon.gif[/img]" will be appended
 	 *
 	 *    To add emoticons to an existing object from WhutBB.db.emoticons, see
@@ -1480,7 +1510,7 @@
 	/**
 	 * Panel Class
 	 * Generates all the panels used in the script.
-	 * 
+	 *
 	 * A panel is an element intended to be within a WhutBBInstance.wrap div.
 	 *
 	 * eg:
@@ -1492,7 +1522,7 @@
 	 *	}
 	 *
 	 * *Global panels
-	 * 
+	 *
 	 * Use Panel.factory, instead of new Panel().
 	 *
 	 * Global (or public) panels are static and part of the Panel.global object,
@@ -1506,7 +1536,7 @@
 	 * This aliviates the need to generate each panel separately for every instance.
 	 * This means that if there are 100s of emoticons, they will only be created once
 	 * and moved around as needed, instead of creating 100s of emoticons per instance/textarea.
-	 * 
+	 *
 	 * Private (non-global) panels are stored in the Panel.set object.
 	 * Once panels are initially created within Panel.construct(),
 	 * private panels can be copied to (copyTo) a WhutBB instance.
@@ -1668,25 +1698,25 @@
 	/**
 	 * Tag Class
 	 * Creates a tag of given name
-	 * 
+	 *
 	 * Use Tag.get(), not new Tag()!
 	 * Tag.get() uses lazy loading, and stores all new
 	 * tags within Tags.tags[]
-	 * 
+	 *
 	 * A tag's type generates the appropriate parsing
 	 * All tags parse as a two-index array
 	 *
 	 * If a tag does not require an endpoint (matching tag),
 	 * an empty string is required
-	 * 
+	 *
 	 *   ['[tag]', '[/tag]']
 	 *   ['open', '']
 	 *   ['', 'close']
-	 * 
+	 *
 	 * Example, insert a tag directly into a textarea
 	 *   bTag = Tag.get('b');
 	 *   bTag.insertTo(someTextarea);
-	 * 
+	 *
 	 * PS: Note the use of WhutBB.box within insertTo().
 	 */
 	WhutBB.Tag = (function () {
@@ -1697,7 +1727,7 @@
 			this.tag = this.button.tag || text;
 		}
 
-		// Stores new Tags 
+		// Stores new Tags
 		Tag.tags = {};
 
 		/**

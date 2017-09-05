@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Version Info
 
+#### Version 5.1
+
+ *   Removes unnecessary site configurations
+
 #### Version 5
 
  *   Simplifies Gazelle site inclusion, only requires to use @include
