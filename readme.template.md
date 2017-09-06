@@ -52,18 +52,6 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
-#### 5.1.1
- *   checks that site configuration exists
- *   adds grunt and node package files
-
-#### 5.1
-
- *   removes unnecessary site configurations
-
-#### 5
-
- *   simplifies Gazelle site inclusion, only requires to use @include
-
 #### 4.9.4
 
  *   adds support for secret-cinema.pw, fixes efectodoppler
