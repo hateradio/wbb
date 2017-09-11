@@ -51,7 +51,7 @@ module.exports = function (grunt) {
   grunt.registerTask('update', 'Generate update.json', function () {
     const update = {
       name: 'WhutBBCode?',
-      version: getVersions().updateVersion,
+      version: +getVersions().updateVersion,
       page: "https://greasyfork.org/en/scripts/1024-whutbbcode"
     };
 

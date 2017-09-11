@@ -52,6 +52,9 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 5.2
+ *   changes JSON version from string to int
+
 #### 5.1.1
  *   checks that site configuration exists
  *   adds grunt and node package files

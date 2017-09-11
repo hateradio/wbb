@@ -3,7 +3,7 @@
 // @name           WhutBBCode?
 // @namespace      hateradio)))
 // @author         hateradio
-// @version        5.1.1
+// @version        5.2
 // @description    This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.
 // @homepage       https://greasyfork.org/en/scripts/1024-whutbbcode
 // @icon           data:image/png;base64,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
@@ -43,7 +43,7 @@
 
 // @include        http*://*what.cd/*
 
-// @update         Sep 04 2017
+// @update         Sep 10 2017
 // @since          Sep 30 2010
 // 2010+, hateradio
 // Please don't modify or edit my script and re-release it. D:
@@ -53,6 +53,9 @@
 
 /**
 ### Updates
+
+#### 5.2
+ *   changes JSON version from string to int
 
 #### 5.1.1
  *   checks that site configuration exists
@@ -201,9 +204,10 @@
 	// U P D A T E HANDLE
 	update = {
 		name: 'WhutBBCode?',
-		version: 5110,
+		version: 5200,
 		key: 'ujs_WBB_UPDT_HR',
 		urij: 'https://hateradio.github.io/wbb/wbb.json',
+		page: 'https://greasyfork.org/en/scripts/1024-whutbbcode',
 		interval: 5,
 		day: (new Date()).getTime(),
 		time: function () { return new Date(this.day + (1000 * 60 * 60 * 24 * this.interval)).getTime(); },
@@ -217,8 +221,8 @@
 			this.csstxt();
 
 			var a = document.createElement('a'), b = strg.read(this.key);
-			a.href = b.page || '#';
-			a.id = 'userscriptupdater';
+			a.href = b.page || this.page;
+			a.id = 'userscriptupdater2';
 			a.title = 'Update now.';
 			a.target = '_blank';
 			a.textContent = 'An update for ' + this.name + ' is available.';
@@ -233,10 +237,11 @@
 		},
 		check: function (opt) {
 			if (!strg.on) { return; }
+			if (window.chrome && window.chrome.extension) { return; }
 			var stored = strg.read(this.key), page;
 
 			if (opt || !stored || stored.date < this.day) {
-				page = (stored && stored.page) || '#';
+				page = (stored && stored.page) || this.page;
 				strg.save(this.key, {date: this.time(), version: this.version, page: page});
 				this.xhr();
 			} else if (this.version < stored.version) {
@@ -244,7 +249,7 @@
 			}
 		},
 		csstxt: function () {
-			if (!this.pop) { this.pop = true; dom.css('#userscriptupdater,#userscriptupdater:visited{box-shadow:1px 1px 6px #7776;border-bottom:3px solid #d65e55;cursor:pointer;color:#555;font-family:sans-serif;font-size:12px;font-weight:700;text-align:justify;position:fixed;z-index:999999;right:10px;top:10px;background:#ebebeb url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTguODQ4NTMgMTk5LjM4MzA3Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNC4yNzYgLTE2LjM2NykiPjxjaXJjbGUgY3g9IjEwNC4zMjEiIGN5PSIxMTYuMzI3IiByPSI5OC4yNzQiIGZpbGw9IiNkNjVlNTUiLz48cGF0aCBmaWxsPSIjZTljZTAyIiBzdHJva2U9IiNlOWM4MDIiIHN0cm9rZS13aWR0aD0iMTYuNyIgZD0iTTE2Ni40NSAxNTcuMzEySDQxLjg5bDMxLjE0LTUzLjkzNSAzMS4xNC01My45MzUgMzEuMTM3IDUzLjkzNXoiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSI4NS42NDMiIHk9IjE1MS44NjYiIGZpbGw9IiNkNjVlNTUiIHN0cm9rZS13aWR0aD0iMS40NzciIHN0eWxlPSJsaW5lLWhlaWdodDoxLjI1Oy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246J0Jvb2sgQW50aXF1YSciIGZvbnQtd2VpZ2h0PSI0MDAiIGZvbnQtc2l6ZT0iNTkuMDg4IiBmb250LWZhbWlseT0iQm9vayBBbnRpcXVhIiBsZXR0ZXItc3BhY2luZz0iMCIgd29yZC1zcGFjaW5nPSIwIj48dHNwYW4geD0iODUuNjQzIiB5PSIxNTEuODY2IiBzdHlsZT0iLWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjonQm9vayBBbnRpcXVhJyIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSIxMjYuMDU0Ij4hPC90c3Bhbj48L3RleHQ+PC9nPjwvc3ZnPg==) no-repeat 10px center;background-size:40px;padding:0 20px 0 60px;height:55px;line-height:55px}#userscriptupdater:hover,#userscriptupdater:visited:hover{color:#b33a3a !important;border-color:#ce4b30}'); }
+			if (!this.pop) { this.pop = true; dom.css('#userscriptupdater2,#userscriptupdater2:visited{box-shadow:1px 1px 6px #7776;border-bottom:3px solid #d65e55;cursor:pointer;color:#555;font-family:sans-serif;font-size:12px;font-weight:700;text-align:justify;position:fixed;z-index:999999;right:10px;top:10px;background:#ebebeb url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTguODQ4NTMgMTk5LjM4MzA3Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNC4yNzYgLTE2LjM2NykiPjxjaXJjbGUgY3g9IjEwNC4zMjEiIGN5PSIxMTYuMzI3IiByPSI5OC4yNzQiIGZpbGw9IiNkNjVlNTUiLz48cGF0aCBmaWxsPSIjZTljZTAyIiBzdHJva2U9IiNlOWM4MDIiIHN0cm9rZS13aWR0aD0iMTYuNyIgZD0iTTE2Ni40NSAxNTcuMzEySDQxLjg5bDMxLjE0LTUzLjkzNSAzMS4xNC01My45MzUgMzEuMTM3IDUzLjkzNXoiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48dGV4dCB4PSI4NS42NDMiIHk9IjE1MS44NjYiIGZpbGw9IiNkNjVlNTUiIHN0cm9rZS13aWR0aD0iMS40NzciIHN0eWxlPSJsaW5lLWhlaWdodDoxLjI1Oy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246J0Jvb2sgQW50aXF1YSciIGZvbnQtd2VpZ2h0PSI0MDAiIGZvbnQtc2l6ZT0iNTkuMDg4IiBmb250LWZhbWlseT0iQm9vayBBbnRpcXVhIiBsZXR0ZXItc3BhY2luZz0iMCIgd29yZC1zcGFjaW5nPSIwIj48dHNwYW4geD0iODUuNjQzIiB5PSIxNTEuODY2IiBzdHlsZT0iLWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjonQm9vayBBbnRpcXVhJyIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSIxMjYuMDU0Ij4hPC90c3Bhbj48L3RleHQ+PC9nPjwvc3ZnPg==) no-repeat 10px center;background-size:40px;padding:0 20px 0 60px;height:55px;line-height:55px}#userscriptupdater2:hover,#userscriptupdater2:visited:hover{color:#b33a3a !important;border-color:#ce4b30}'); }
 		}
 	};
 	update.check();
