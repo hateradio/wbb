@@ -52,6 +52,11 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 5.3
+ *   adds new BB code tags for RED (`[pad]`, `[php]`)
+ *   adds a line break before list item tags
+ *   makes sure to only add unique emoticons
+
 #### 5.2
  *   changes JSON version from string to int
 
