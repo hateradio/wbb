@@ -16,12 +16,12 @@ Most Gazelle sites are also compatible; however, they have to be included manual
 
 #### Sites
 
-*   Apollo
 *   Waffles
 *   Indietorrents
 *   Cinemageddon
 *   PTP
 *   RED, GG, nWCD, BS, bs, and more . . .
+*   <del>Apollo</del>
 *   <del>What</del> (Archived in the code)
 
 Note that you have to save your _settings_ on every site.
