@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 6
+
+ *   removes apl, adds orph
+
 #### 5.3
  *   adds new BB code tags for RED (`[pad]`, `[php]`)
  *   adds a line break before list item tags

@@ -11,8 +11,8 @@ module.exports = function (grunt) {
   function getVersions() {
     let version, rawVersion, updateVersion;
 
-    version = js.match(/version\s+(\d+.+)/)[1];
-    rawVersion = (version.replace(/[.]/g, '') + '00').substr(0, 4);
+    version = js.match(/version\s+(\d+(?:.+)?)/)[1];
+    rawVersion = version.replace(/[.]/g, '').padEnd(4, '0'); // padEnd requires node >= 8.x
     updateVersion = js.match(/version\:\s?(\d+)/)[1];
 
     return {
