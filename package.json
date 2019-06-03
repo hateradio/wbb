@@ -1,13 +1,14 @@
 {
   "name": "wbbc",
-  "version": "6.0.0.0",
+  "version": "6.5.0.0",
   "description": "This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.",
   "main": "whutbbcode.user.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
   },
   "repository": {
     "type": "git",
