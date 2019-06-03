@@ -58,10 +58,6 @@
  *   fixes preview in inbox
  *   adds `hr` button
 
-#### 6.1
-
- *   add `hr` to red
-
 #### 6
 
  *   removes apl, adds orph
