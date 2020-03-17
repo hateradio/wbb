@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 6.6
+
+ *   replaces `keypress` with `keydown` in Firefox
+
 #### 6.5
 
  *   fixes preview in inbox
