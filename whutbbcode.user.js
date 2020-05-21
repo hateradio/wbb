@@ -746,7 +746,7 @@
 			wiki: {type: 4, tag: ['[[', ']]'], display: 'w', title: 'Link to a Wiki article', icon: 'share'},
 			tex: {display: 't', title: 'LaTeX', icon: 'pencil'},
 			plain: {display: 'x', title: 'Disable BB tags', icon: 'ban-circle'},
-			hr: {type: 5, display: '--', title: 'Horizontal Rule', icon: 'ban-circle'},
+			hr: {type: 5, display: '--', title: 'Horizontal Rule', icon: 'text-width'},
 			youtube: {type: 2, display: 'yt', title: 'YouTube video', icon: 'film'},
 			font: {type: 1, display: 'f', prompt: 'Enter a font\'s name', title: 'Font', val: 'Arial', icon: 'font'},
 			torrent: {display: 'id', title: 'Link to a torrent ID', icon: 'download'},
@@ -757,7 +757,7 @@
 			td: {display: 'td', title: 'Insert a table cell', icon: 'pencil'},
 			heading: {type: 4, tag: '=', display: '=', title: 'Insert a heading', icon: 'arrow-right'},
 			php: {display: '<?', title: 'Insert Source Code', icon: 'tasks'},
-			pad: {type: 1, display: '...', title: 'Add padding in pixels to the content (eg: top|right|bottom|left => 10|0|10|0)', val: '0|0|0|0', icon: 'icon-indent-right'},
+			pad: {type: 1, display: '...', title: 'Add padding in pixels to the content (eg: top|right|bottom|left => 10|0|10|0)', val: '0|0|0|0', icon: 'indent-right'},
 			// Gazelle
 			gz_left: {tag: 'align', val: 'left', type: 1, noPrompt: true, display: '<', title: 'Align left', icon: 'align-left'},
 			gz_center: {tag: 'align', val: 'center', type: 1, noPrompt: true, display: '\u2013', title: 'Align center', icon: 'align-center'},
