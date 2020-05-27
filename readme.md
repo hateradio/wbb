@@ -12,7 +12,7 @@ _As of version 3.0, "WhutBBCode?" has been renamed, so you might have to uninsta
 
 ### Compatibility
 
-Most Gazelle sites are also compatible; however, they have to be included manually. **If you want me to add a site, please send me a message.**
+Most Gazelle sites are also compatible; however, they have to be included manually. **If you want me to add a site, please send me a message or pull request!**
 
 #### Sites
 
@@ -33,7 +33,7 @@ Note that you have to save your _settings_ on every site.
 *   Chrome 10+
 *   Safari 5+
 
-The script is known to work on Opera, Chrome, Safari with the [Tampermonkey](https://tampermonkey.net/?browser=safari "Tampermonkey") extension.
+The script is known to work with the [Tampermonkey](https://tampermonkey.net/?browser=safari "Tampermonkey") extension.
 
 ### Shortcut Keys
 
@@ -51,6 +51,11 @@ Shortcut keys were only tested in the above-mentioned browsers.
 *   `Ctrl + d = {Delete}` (Erases your message!)
 
 ### Updates
+
+#### 7
+
+ *   removes IE code
+ *   fixes icons for `[hr]` and `[pad]`
 
 #### 6.6
 
