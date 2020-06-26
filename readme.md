@@ -52,6 +52,14 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 8
+
+ *   New Bootstrap icons
+ *   New button layouts
+ *   New button text (for option with no icons)
+ *   Use icon names from Bootstrap
+ *   New blueprint for orph
+
 #### 7
 
  *   removes IE code
