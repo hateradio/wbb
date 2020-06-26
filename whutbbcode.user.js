@@ -3,7 +3,7 @@
 // @name           WhutBBCode?
 // @namespace      hateradio)))
 // @author         hateradio
-// @version        8.0
+// @version        8.1
 // @description    This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.
 // @homepageURL    https://greasyfork.org/en/scripts/1024-whutbbcode
 // @icon           data:image/png;base64,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
@@ -42,7 +42,7 @@
 
 // @include        http*://*what.cd/*
 
-// !update         Jun 25 2020
+// !update         Jun 26 2020
 // !since          Sep 30 2010
 // 2010+, hateradio
 // Please don't modify or edit my script and re-release it. D:
@@ -53,6 +53,10 @@
 
 /**
 ### Updates
+
+#### 8.1
+
+ *   Enhancement: Edit button now re-creates the WhutBBCode instance instead of overwriting it
 
 #### 8
 
@@ -216,7 +220,7 @@
 	// U P D A T E HANDLE
 	update = {
 		name: 'WhutBBCode?',
-		version: 8000,
+		version: 8100,
 		key: 'ujs_WBB_UPDT_HR',
 		urij: 'https://hateradio.github.io/wbb/wbb.json',
 		page: 'https://greasyfork.org/en/scripts/1024-whutbbcode',
@@ -351,14 +355,23 @@
 		this.textarea.parentNode.insertBefore(this.wrap, node);
 	};
 
-	// WhutBB.prototype.update = function (textarea) {
-		// // update the textarea
-		// this.textarea = textarea;
-		// // update the wrap
-		// this.insert(WhutBB.config.beneath);
-		// // update the events if the previous elements are different
-		// this.events();
-	// };
+
+	/**
+	 * @param {HTMLTextAreaElement} textarea Replace the current textarea
+	 */
+	WhutBB.prototype.update = function (textarea) {
+		if (this.textarea.isEqualNode(textarea)) {
+			return this.show();
+		}
+
+		this.textarea.remove();
+		this.textarea = textarea;
+		this.textarea.className += ' wbbarea';
+		this.insert(WhutBB.config.beneath);
+
+		// wouldn't need to do this if the textarea were within the wrap . . .
+		this.textarea.addEventListener('keydown', WhutBB.evt.key.register(this), false);
+	};
 
 	/**
 	 * Attaches event handlers
@@ -380,6 +393,13 @@
 	 */
 	WhutBB.prototype.show = function () {
 		this.wrap.className = this.wrap.className.replace(/(?: wbbhide)/g, '');
+	};
+
+	/**
+	 * Is the instance visible?
+	 */
+	WhutBB.prototype.isVisble = function () {
+		return !/(?:wbbhide)/g.test(this.wrap.className);
 	};
 
 	/**
@@ -1089,13 +1109,19 @@
 					// obs(id);
 					// evt.preventDefault();
 					interv = window.setInterval(function () {
-						var txt = document.getElementById('editbox' + id);
+						var txt = document.getElementById('editbox' + id), w;
 
 						if (txt) {
 							window.clearInterval(interv);
 							console.log('clearing', interv);
 							txt.setAttribute('data-wbb', id);
-							WhutBB.create(txt, true);
+
+							w = WhutBB.set[id];
+							if (w) {
+								w.update(txt);
+							} else {
+								WhutBB.create(txt, true);
+							}
 						}
 					}, 500);
 				}

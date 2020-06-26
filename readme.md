@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 8.1
+
+ *   Enhancement: Edit button now re-creates the WhutBBCode instance instead of overwriting it
+
 #### 8
 
  *   New Bootstrap icons
