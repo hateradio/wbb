@@ -52,6 +52,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 ### Updates
 
+#### 8.1.1
+
+ *   Add support for torrentday.com, passthepopcorn.me, myanonamouse.net, broadcasthe.net
+
 #### 8.1
 
  *   Enhancement: Edit button now re-creates the WhutBBCode instance instead of overwriting it
