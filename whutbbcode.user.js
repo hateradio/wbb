@@ -446,8 +446,8 @@
 			['waffles', /(?:waffles\.ch)/],
 			['indietorrents', /(?:indietorrents\.com)/],
 			['torrentday', /(?:torrentday\.com)/],
-			['oppaiti', /(?:oppaiti\.me)/]
-			['ptp', /(?:passthepopcorn\.me)/]
+			['oppaiti', /(?:oppaiti\.me)/],
+			['ptp', /(?:passthepopcorn\.me)/],
 			// ['what', /(?:what)\.cd/]
 			// /(?:(last)(?:fm)?\.fm)/,
 		],

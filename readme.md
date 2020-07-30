@@ -54,7 +54,7 @@ Shortcut keys were only tested in the above-mentioned browsers.
 
 #### 8.1.1
 
- *   Add support for torrentday.com, passthepopcorn.me, myanonamouse.net, broadcasthe.net
+ *   Adds support for torrentday.com, passthepopcorn.me, myanonamouse.net, broadcasthe.net
 
 #### 8.1
 
