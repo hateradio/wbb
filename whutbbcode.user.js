@@ -192,38 +192,8 @@
 			var base64 = window.btoa(svg);
 			// return 'url(data:image/svg+xml;utf8,' + svg + ')';
 			return "url(data:image/svg+xml;base64," + base64 + ")";
-		},
-		observer: (function () {
-			var M = window.MutationObserver || window.WebKitMutationObserver;
-
-			return M ? function (element, callback) {
-				var obs = new M(function (mutations) {
-					console.log(mutations);
-					if (mutations[0].addedNodes.length > 0) {
-						callback();
-					}
-				});
-				obs.observe(element, {childList: true});
-			} : null;
-		}())
-	};
-
-	function obs (id) {
-		var content = document.getElementById('content' + id);
-		if (!content.hasAttribute('observed')) {
-			console.log('adding observer to', content);
-			dom.observer(content, function () {
-				console.log('observer!', id);
-				var txt = document.getElementById('editbox' + id);
-
-				if (!txt.hasAttribute('data-wbb')) {
-					txt.setAttribute('data-wbb', id);
-					WhutBB.create(txt, true);
-				}
-			});
-			content.setAttribute('observed', true);
 		}
-	}
+	};
 
 	// U P D A T E HANDLE
 	update = {
@@ -290,8 +260,8 @@
 	 */
 	function WhutBB(textarea, id) {
 		this.textarea = textarea;
-		this.textarea.className += ' wbbarea';
-		this.textarea.setAttribute('data-wbb', id);
+		this.textarea.classList.add('wbbarea');
+		this.textarea.dataset.wbb = id;
 		this.id = id;
 		this.wrap = dom.dom('div', { className: 'wbbcode ' + WhutBB.$.getWrapClass() });
 
@@ -348,7 +318,7 @@
 	 * @param textarea to use
 	 */
 	WhutBB.id = function (textarea) {
-		var dat = textarea.getAttribute('data-wbb');
+		var dat = textarea.dataset.wbb;
 		if (dat && dat.length > 0) {
 			return dat;
 		}
@@ -374,7 +344,7 @@
 
 		this.textarea.remove();
 		this.textarea = textarea;
-		this.textarea.className += ' wbbarea';
+		this.textarea.classList.add('wbbarea');
 		this.insert(WhutBB.config.beneath);
 
 		// wouldn't need to do this if the textarea were within the wrap . . .
@@ -393,21 +363,21 @@
 	 * Hides this instance's elements
 	 */
 	WhutBB.prototype.hide = function () {
-		this.wrap.className += ' wbbhide';
+		this.wrap.classList.add('wbbhide');
 	};
 
 	/**
 	 * Shows this instance's elements
 	 */
 	WhutBB.prototype.show = function () {
-		this.wrap.className = this.wrap.className.replace(/(?: wbbhide)/g, '');
+		this.wrap.classList.remove('wbbhide');
 	};
 
 	/**
 	 * Is the instance visible?
 	 */
 	WhutBB.prototype.isVisble = function () {
-		return !/(?:wbbhide)/g.test(this.wrap.className);
+		return !this.wrap.classList.contains('wbbhide');
 	};
 
 	/**
@@ -866,8 +836,8 @@
 			gz_rule: {tag: 'rule', title: 'Rule', icon: 'infoSquare', display: 'r' },
 			// Panels
 			emoticon: {display: ':]', toggle: ';]', title: 'Emoticons', type: -1, icon: 'emojiSunglasses'},
-			settings: {display: '\u205E', title: 'Settings', type: -1, icon: 'toggles'},
-			shortcut: {display: '?', title: 'Shortcuts', type: -1, icon: 'command'},
+			settings: {display: '\u205D', toggle: '\u2059', title: 'Settings', type: -1, icon: 'toggles'},
+			shortcut: {display: '?', toggle: '\u203D', title: 'Shortcuts', type: -1, icon: 'command'},
 			erase: {display: '-', title: 'Delete Message', type: -2, icon: 'trash'}
 		},
 		emoticons: {
@@ -1058,30 +1028,30 @@
 			},
 			panel: { // panel buttons
 				toggle: function (panel, el) { // el = WhutBB.e.target
-					var visible = /(?:wbbpressed)/i.test(el.className); // panel's current visibility
+					var visible = el.classList.contains('wbbpressed'); // panel's current visibility
 					WhutBB.evt.button.panel.store(el);
 					if (visible) {
-						el.className = el.className.replace(' wbbpressed', '');
-						panel.className += ' wbbhide';
+						el.classList.remove('wbbpressed');
+						panel.classList.add('wbbhide');
 					} else {
 						WhutBB.e.whut.wrap.appendChild(WhutBB.Panel.global[el.name].element);
-						el.className += ' wbbpressed';
-						panel.className = panel.className.replace(' wbbhide', '');
+						el.classList.add('wbbpressed');
+						panel.classList.remove('wbbhide');
 					}
 					WhutBB.evt.button.panel.toggleText(visible, el.firstChild);
 				},
 				toggleText: function (visible, span) {
-					if (span.getAttribute('data-toggle') !== '') {
-						span.firstChild.nodeValue = span.getAttribute(visible ? 'data-txt' : 'data-toggle');
+					if (span.dataset.toggle) {
+						span.firstChild.nodeValue = span.dataset[visible ? 'txt' : 'toggle'];
 					}
 				},
 				store: function (button) {
 					// remove pressed (toggled) state of previous stored button
-					if (WhutBB.evt.button.panel.store[button.name]) {
-						WhutBB.evt.button.panel.store[button.name].className = 'whutbbutton';
-						WhutBB.evt.button.panel.toggleText(true, WhutBB.evt.button.panel.store[button.name].firstChild);
+					if (WhutBB.evt.button.panel.stored[button.name]) {
+						WhutBB.evt.button.panel.stored[button.name].className = 'whutbbutton';
+						WhutBB.evt.button.panel.toggleText(true, WhutBB.evt.button.panel.stored[button.name].firstChild);
 					}
-					WhutBB.evt.button.panel.store[button.name] = button;
+					WhutBB.evt.button.panel.stored[button.name] = button;
 				},
 				stored: {}
 			}
@@ -1091,19 +1061,19 @@
 				var t = WhutBB.e.target;
 				// console.log(t);
 				WhutBB.e.current.stopPropagation();
-				if (+t.getAttribute('data-type') === -3) {
+				if (+t.dataset.type === -3) {
 					// console.log(-3);
 					return WhutBB.evt.button.macro(t.name, WhutBB.e.whut);
 				}
-				if (+t.getAttribute('data-type') === -2) {
+				if (+t.dataset.type === -2) {
 					// console.log(-2);
 					return WhutBB.evt.button.custom[t.name]();
 				}
-				if (+t.getAttribute('data-type') === -1) {
+				if (+t.dataset.type === -1) {
 					// console.log(-1);
 					return WhutBB.evt.button.panel.toggle(WhutBB.Panel.global[t.name].element, t);
 				}
-				if (t.getAttribute('data-type') === 'emoticon') {
+				if (t.dataset.type === 'emoticon') {
 					// console.log(2);
 					return WhutBB.evt.button.emoticon();
 				}
@@ -1118,15 +1088,13 @@
 
 				if (attr.match(/(?:Edit_Form\('(\d+))/)) {
 					id = RegExp.lastParen;
-					// obs(id);
-					// evt.preventDefault();
 					interv = window.setInterval(function () {
 						var txt = document.getElementById('editbox' + id), w;
 
 						if (txt) {
 							window.clearInterval(interv);
 							console.log('clearing', interv);
-							txt.setAttribute('data-wbb', id);
+							txt.dataset.wbb = id;
 
 							w = WhutBB.set[id];
 							if (w) {
@@ -1166,11 +1134,11 @@
 					ps = qp.previousElementSibling;
 				// console.log('inbox');
 				if (/(?:preview)/i.test(attr)) {
-					qp.className += ' wbbhide';
-					ps.className += ' wbbhide';
+					qp.classList.add('wbbhide');
+					ps.classList.add('wbbhide');
 				} else if (/(?:edit)/i.test(attr)) {
-					qp.className = qp.className.replace(/(?: wbbhide)/g, '');
-					ps.className = ps.className.replace(/(?: wbbhide)/g, '');
+					qp.classList.remove('wbbhide');
+					ps.classList.remove('wbbhide');
 				}
 			},
 			settings: { // settings events
@@ -1211,10 +1179,10 @@
 				return (/(?:icon-)/).test(target.getAttribute('class')) ? target.parentNode : target;
 			},
 			down: function () {
-				if (WhutBB.e.target.getAttribute('data-type')) {
+				if (WhutBB.e.target.dataset.type) {
 					return WhutBB.evt.delegate.button();
 				}
-				if (WhutBB.e.target.getAttribute('data-setting')) {
+				if (WhutBB.e.target.dataset.setting) {
 					return WhutBB.evt.delegate.settings.update();
 				}
 			},
