@@ -1,6 +1,6 @@
 {
   "name": "wbbc",
-  "version": "8.1.1.0",
+  "version": "8.2.0.0",
   "description": "This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.",
   "main": "whutbbcode.user.js",
   "directories": {

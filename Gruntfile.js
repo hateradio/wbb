@@ -41,11 +41,11 @@ module.exports = function (grunt) {
 
     if (updateVersion !== rawVersion) {
       grunt.log.error('Versions do not match. Update them correctly!');
-      grunt.log.write(version, rawVersion, updateVersion);
+      grunt.log.write(`Script Header: ${version}, JSON: ${rawVersion}, Source: ${updateVersion}`);
       return false;
     }
 
-    grunt.log.write(`Script versions are ${version} and ${updateVersion}`).ok();
+    grunt.log.write(`Script and update JSON versions are ${version} and ${updateVersion}`).ok();
   })
 
   grunt.registerTask('update', 'Generate update.json', function () {

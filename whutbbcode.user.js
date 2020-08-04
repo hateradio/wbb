@@ -3,7 +3,7 @@
 // @name           WhutBBCode?
 // @namespace      hateradio)))
 // @author         hateradio
-// @version        8.1.1
+// @version        8.2
 // @description    This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.
 // @homepageURL    https://greasyfork.org/en/scripts/1024-whutbbcode
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEvNJREFUeNrkW+uPJcdVP9WP+56Ze+e1M7v22tnxZrO7juzMJt6sQfAFFCN/AQn+AnAeCkgWFtiO+YgUvgakIBHxgQTCI84HY2JQTKQEFJOXFcdsTLKOnPWOd2Z3dmfu+9GvKs6pqu6u27fvzB1WQhq4mlL33O7qrvOr8/idU3XZyy//Dfx//jiZ/xk2K3POdDuOH6Eb10fInI8BYOvmYitjK2Ar5oB03AAIsfm6DbEF2CLdEuFiwSvY6tgWsTWwVTUQ9jHUAqGFJMF72FrY9rC1sQ30PZFjqDjN+gq209gexLauwSgYZnHcPlwDQMJvY3sX2w1su1ozEg0gIeexncR24b5TZz52//1nPlIu1+rMshzDZI7hh0EY+IPt7a3tt3929Us46aE2BS/WAEvbOgFwqtFYuXLu3CNPKK0QIASX6iHAcB0stQeR40WF8SVj+n82eS3pEPeDyfPpYqXPTQaSHZR8pwDHcSvV6sJDPCw+PRjeuVMsFZqu65IpeI7hDOewrZ44cf+HU+HV00TyJqEk4vjd2MhTCUUGlfgZ6s9EThgDZ/od+ivG8pE1HipiZIUhtWAZhPRj5DkHy7Ibd3dbT1Yq7s9X11ffiwVn+kg+oMbAKiTCC67fJ3KkQnFo4FwJz5jQ55lx0z0JKFzdGz8zEUI/S3/HhBif3bRrOtO6XzIpsq8xPpG+n865/mo4GH5g0G2ftWz7reXVpaZj4EWevoAqrxweCS/E2MyMzVwCTKwlU1yxvsA5ly3i+rnGNRqkJB2WlTSWpwViit0l2iRy38+YpdVBoAcIF4f9wX3tZruCALAYgJjw4CAFi1/AZ7bIKS6YBI4iCLHhiyHEFgSBHBRdi59qEQDYHNcFx7YB7RNwhuR5AsY9RkQRgw7CxjHVvNHIyRIhxfxY1hkdXXgptBbW8zx5dL23oehfg7nwbXDFbbDEEFy+DRGbh5Ct4LEGnv1+GBYegn7pUXRcDhSLRXALBSgQIPcIRNJXOy/BlcNw8m/WNnNE2QllH4X1UejhECPN6AYsDF+FcvhjKPIbuepsiw7aXkf+Xwl+BI0RAtitw9C+CN3SZejMPQ4lBEKCcQ9ACAG5muzk8SdhOBgxIwo06zTTAxQ86N+GRu+rUA+/bhDtMrDKSWBFjLZuQQnhIPmMRiDCPh6Rr3hdEAMExGtBLfo21PxvQ2/wLWhVn4Rh9YNQKZehVCpJ7TgyCIZjPBiAI6o8AUTCj0Yj6A8GUO5+A9aHf4ez2pJhidVOA6u/D5hTVuRLUAvUOR/KI7PRBdkYfNw63o/ROEBQhl3gnQ7Ugteh1nodOv1fhjtLn5K+o4RAkFncu2+YluiICcoxVXiydVL3Qb8PS60vwEL4r6pX5RRYi+fxDSi4wNnlSL8Fki+BOs59BQKBIRkpH0/erAhYtQB2cQ44Pld0Q5j3vgn2nTbs1p/C996H9lKZDQR9XRwJgAlTmKL2JDzOer/fg9XW52Au+o70o9bSh4DNnVRCRpiHCBSe9zQIQwUE11ogMjSOmRk4kpeaBQKVgzcFVL0fwsm9z8IOfxqvnUXmMoMmSH5gQRLaxCEAxPFZHGIQpPZDUnucoeXWn6N3R+GtIlgnLgMroBpHKChH2+ZdPO+oowRiqDRCaoAwGA6xRFtFZBmdbT176LatEOw68ogWRgZ/C9b2/wxusmeJuUvhyTnO5AJm9gEMDnR+UvW1w1tq/SUsBP+GfVyw1z6qVF4KTa2lGu9oMIap6ovIUH1NRRIAbA2CpTVCsRKrPgS+X4WSfx3W9v4CdtxnwdZcgY4HZ8b5+bwzmWQoWskkfcyHjVR/hMIXO69B3X9V9rJWH1WOjFQ9wjwj3MdjU51L9R+pmacUXQqfyVqS7CULgm3ciyDMjfCxK9Iclne/AE37kzIqxGRqStqkGc2kLFbe7IrUYmTSIczaEl73fB8GqP714T8pn9U4p8IbzXCIQod3sWHK3cfWRiBGXW3/vrL9GFhhCC//R43gOkoMEKQuhUZymp4Kk9JvjBCEO/L++uAbYHeuyggUaWY52YSWId9PWAfmmzn8mrw+sbv5zj8icbmGmj+HoWtdeXc5800QrV3g1zGmjx4F4TwJYn8dxF0UiJN22Ub1zVH/C32O34lBCfj2AirJL4Fwf0P39ZXWSBDIJwTAyn0p4WLzJcU2cVx5ZsuMhGtGHjCJoqkd9KIRvnDJe105qIUzemZxQGEbQ9ZdEB1kbB/+U4DGeW2+OLgf/QnA3pcBllydtk7WWoWPHn9wEqzHPot9L473vfvX2BeB4gQYRprCAKJ+BWqjH0Kz85/glx+TppD1BXEyJKaQeisvbrIpmRWREGJ75d53oRL+BE20AqxUUyoaop0H6Ox6Q2AfeCYVQL4FQ9Ujz+EMbuB9CAArq2YZjZVQ3avALj6PfT+oh4YNs3PVF4H2lPBx7saKnpyh+c63pFlSZMrVAKZUejYA4hRYGLFDJKkk+PiiudEPlKOsrCmbjdC+Q9VEgEKsXpaPeuVr/wwvPP8cfOmLX4RIoLKdeQp9gqVKDwQAlHQZgshSGYPDKva9Aq+88gq88Jlnsd9fKaGoRCH7kjrjc7gyHctVqXVl+BYEqJWc7s2MWVD6rVNwNlMucAAB5Dr8VYL/khGMlRuK1UWecoA+Hksb0oPvbG/Di//wZfkgOj937gI8dvoEgmSr2WZs3NlQ9lU6DTu3duHFr/yt/H/n5k3sdx4eu4yAVtDP8Lh6x9Q5TS6GKzfYheLgHQjnHpFaSmFxIgucYgJObhQQqrojjIKI0BrA/LvgkodHtQayN5p98s4EBKHi78kBdjpdebQdG5sDPWSLqD74xoLkDHr046sSQRM67Q64mCRRnwDv7/Z66l6/LYmW1Bqt0tIcHFXpLw2uYSZ6QWqMGQ5FUm2CpBBzaBRg2dnR9k8RoIBMTHIlt4pfRkq9pOrJygaeY4hq/RQ2zp6FjY33y8g2P9eAzQ9tAmy9DDA3r4vQ5AyNRoDyfdhYBXjggQ2pzgsLS3Bp85IawI2vYd8FZTqipPvZGBFUAaMw2pKFFxonHBraDk2GJolwXMVxAxWDMVPRdhbpxMGSM8vKeN+PPwfO5h/DHz73AmzvbMPyChKXW0iYgp8C1BtTB8MqGD2ufR7+4Ok/gu29EfZbhmoVgX7nJTSdawALdQU4NRbpmiWXR9ffVVWmjPM2TSCPCjhTMRJ8PBnS5mDzvs5dbD0AXU6Uao0AVBCI7g3g3/ldcNafgAeKiyCu/gBE/z8wZM4ZzG5yVlgZr/W2wf7+M3B6/VeB7WLfXQy31He+puuUkTK5kHiBXubD0GhjFBLa2U2rvYsc7XDykwajOpu31iIb18TG0oQGNYL4M/J8Nod9ySz2v4r/ok0WEJzlpfzC5dj/QgLIiuhX9v4eIwo+q4DPbxQVOyShZQvVkRxnGHMDODQXmEkDUgUYr9zGxwg9uJAaGKV1+Tg2C11QlDdQjauQvjMKDh+gMOgXaoOMlPSscKj9Taj8TUAg6AkISTMLmGGUxpz4mBPEqJCt7B8CwGSZmWyJEo7AaSiTD3BQUV95f0p0uFHoMFWPZVfcp72PpwAkth2lmSMJTyAEoRI+VOCLQK3c+e6aSogs63CgDweAZda1IEk5++4p9ZwRJT59nQN4OtsL9KB1YcMsbjB2wFYDkdTtleChtvcwBUHOPtcmwHUhyVLrv9gtKJ4CS2eFeRWho5XEcuyTNMBGEHjpJARsEbnAnsrymKeosNQAlepKF2LbaT7PtImMaYPhVCZmPhY+VOmznnkRUJoeKeFDJv2QIFaI5jqonAVX1wam+5gZwqCye54SIhMEfAGBMHDPwULwGpK/PrLUkcrSpOoHat1wgDbnoMmUmCG83mLArDyHowGIUtWHKE2Pccb5EIWP8B5HAxAwyScEV9WgUe1BKOlESOSuEBlAzxQGEyqccmIS3i0WoVvZhIX+aygoCm7pPD+p8uBACwzTf0eOXYJgWzn+IE8LeBrq8FyQgxsJaWXM4oghaYJQK/5o/1zmEJgizF/BTLAwfc1g7Dt2uAakufC4MyT7KqCdteqPw7D5MpT962pwLExrfEzI8GnhTAnPgmhIYQ2/c5lWgoMAUGYgBfd1/ZRyITdC4UK92YVpu0cA7DnZr13/RblwQktpeVksG6sFiBnqASytpIzxZ/IDesmqW96E8ug6znQRSWFX8YJk/xFlXjhKlzg8mkPPRjNGAAoITDnU9U6DmemlWxl6CccRk4IzC4lXMZJF0WSnj3Z+3JqX8b9bvQjD5U2oFwoq3E1bnZ5S4HWmraAwmTxOrgxRJCAA9tZ+C+a734NS8B76wApqRzt1YobjZzh7AmkrFTs4aQQKl5T8bJG6ABI+UrNL31sukiCHgOSp2kvLoMQGzcuuy3E2V35NLpTYU1aLkmX4KR8rZx1V8X6RrvebDjFexaX1ut3FX1dMNJjDwTtKAchRBdpWKVZTdmYFmMgFYJd9eVQzyrV9k3BqAd+y8T66p+ThOQJA3t/Hh3pC7e3S+7u4vSYToeYCmuLypWTx1BxnNpMVMLl5Y4oJqOoqY5CrAbITagEB0Fn6BWh234BG598xRK+Cw7Z16AKVrBBTi1WdRWlEdNi4Q443mDC9kyGumOsoqNReaWaEPERAEfqlM3D7zG9DpVKR6wLTFkfSfRNiVh4QV1GmbzqgB9JLy6h6O/d9AuzrXZjvv4EgIBuDWyjzKPY+Bvcx+DgzarTZ7YvxDj5urJrJa2g+7joeqkj/52H7fZ+AUrUhF0stg7DlBgAxfWXEmtZLTBHe9AVke5VaDbbv/yR0SxdkTI44zpCo6VgtVPO0DQfGlsWk6evURsa9nr5O/em5hdOo9TUI0fn9/KHnwV7ckLNP2njQ0lhstnq1Z/aqsLw/s3kpD4RyhfZWrsGNjc/Ayeufh0b7NZzAdZwVdIzRXV3nH4tJ+VteuHEk7eM61BUaKP+KtJ1e+SG4ufFpcBcfkNpHjg8YO3Q9m8flMMZmiwIMUgs4bNeFo0GgPrc2fg9GW6dhbfdF7L8gQ5Ul9hGIlgJimuAm9+CKKwiM8by4jCrvyu9b9cuwc+Z3oDS/rGb+yHsEZlwXGFtRibe2HYQxcQMCoVqVM9I985vQaWzC6vZXoN76PqbPS2i7SzjxQwSiD0wmUMjqIi/NgUhIIPpcRg9fQ+GrCWPrVc7B/omPwWDtcSijvZdQeFn7n2HmjcW+qZloPhUeK4vzGV6haHK8e2Non4Wd2u/D/v5bsLj7L1DrXwOHkjkbqau9nM9K+PgsdOYuQLfxUeic+hWp7vNIdJItMof4p8mZtyfymsO3yIA48m4RaRIIANXxCjjgoHwJdpcfhm1aTNl/E2rtq1Dp/wS1IYTK4N2kn19Yhcgqw7D8IPQXzkNvcRNQ12WoXcDnEO+wD3F2h+wRU6SMzWgCce5+dAhUX9riVsCZooEXUStoLSGsXoHm+kfgLhIjCrPcWMUhCkuNtIiAq9mqlE5Cm4L/TzbrxQbAxaxU2ExPj6Rq+WZBjRwlVWzLej9Roo5x7VG3iY2SAPc0BjOrZXCExVFJ12aw/aOYRrxoSSbyv/lJeYCucxxAhOS1iOsa0wHs6jh9SHjOaVVL7VjNyuRkfDCnpW+6GXIqQsfxE+9k63Q70Ov2JnY1O5lAJO7cug0Fu4TOyNVawI+18ORsu90uvLv1HrTbbakNemKFCUCkmbr33vZNuHO3KWM6OTBBJpF1SMzY8h4XHYQY219g2t60Oh3LodqpvaZ5vLm9nuXl+5l+8XMppQ+CEHq9nlysHfkeySPQEUdhIJkpLbYnORht22z1e/1wt7+Hwts6kxKSS7N463TsHjJhRiT3mMKn+/+EySnNBCVOuZnJ1wwQIP49Qg5/EpABmeut8cZCjl4wlbUNnNAoCHngB75Pm5oNDYh/WbXrutYWD/npENM5EWG8lg9lmVlMBRDi4B2FzMjGxyBhLPM8S1Vuc6k3y0Q1kVSsMhua9PfG1ji5SZJJ4SkOdXu9oe95HkYlyjepqJ78sqqJ7Wa16n6902IXg9CqUw9LpCFRrrqYJaZ4JrMmEkuZ/JJDw8BFsrQfrz2aCzBM/j5LjIMQq5v5axierl3KJfmsVkCqprR8zkDtFO139kWv2x3yiLcwHI9iDYh/XEgacDP0gzd42H8pHAVPIEorlmVb6T6bTE4xbVvetHusA5br2SHPzAveB9wbb4iIAg6h70O/2xGDXt9D3d/Cm96xG3Y/9gGxEyREmqVy6U3f82vddtsNw+hRRr8mY+w4/nBSRwEuMAxGaPVe4Ifvokm/6rrOm/P1+YHpA4SOAnxxZdGrblW+2W62dhCI8+hA1qkIh/ZGmsCOieBxNZQcIEf5fXSCTXSI76BCX8VQuHXpymaU5QGxKUQPbz582/P8vVs3b73hDUdzUcQdOKY/oI7CEH05bTaEEZp0r9vpDj/+zFPioFxAhkWNkKed4//Zz38LMAAuaRY9Jc0fWAAAAABJRU5ErkJggg==
@@ -19,10 +19,8 @@
 // @include        http*://*waffles.ch/forums.php*
 // @include        http*://*waffles.ch/upload.php*
 
-// @include        http*://*broadcasthe.net/*
 // @include        http*://*cinemageddon.net/*
 // @include        http*://*myanonamouse.net/*
-// @include        http*://*passthepopcorn.me/*
 // @include        http*://*torrentday.com/*
 
 // Beautiful Gazelles
@@ -41,12 +39,14 @@
 // @include        http*://*alpharatio.cc/*
 // @include        http*://*efectodoppler.pw/*
 // @include        http*://*secret-cinema.pw/*
+// @include        http*://*broadcasthe.net/*
+// @include        http*://*passthepopcorn.me/*
 
 // RIP :(
 
 // @include        http*://*what.cd/*
 
-// !update         Jul 25 2020
+// !update         Aug 04 2020
 // !since          Sep 30 2010
 // 2010+, hateradio
 // Please don't modify or edit my script and re-release it. D:
@@ -57,6 +57,11 @@
 
 /**
 ### Updates
+
+#### 8.2
+
+ *   Replace className and set/getAttribute with classList and dataset
+ *   Fix a margin issue for some stylesheets
 
 #### 8.1.1
 
@@ -192,43 +197,13 @@
 			var base64 = window.btoa(svg);
 			// return 'url(data:image/svg+xml;utf8,' + svg + ')';
 			return "url(data:image/svg+xml;base64," + base64 + ")";
-		},
-		observer: (function () {
-			var M = window.MutationObserver || window.WebKitMutationObserver;
-
-			return M ? function (element, callback) {
-				var obs = new M(function (mutations) {
-					console.log(mutations);
-					if (mutations[0].addedNodes.length > 0) {
-						callback();
-					}
-				});
-				obs.observe(element, {childList: true});
-			} : null;
-		}())
-	};
-
-	function obs (id) {
-		var content = document.getElementById('content' + id);
-		if (!content.hasAttribute('observed')) {
-			console.log('adding observer to', content);
-			dom.observer(content, function () {
-				console.log('observer!', id);
-				var txt = document.getElementById('editbox' + id);
-
-				if (!txt.hasAttribute('data-wbb')) {
-					txt.setAttribute('data-wbb', id);
-					WhutBB.create(txt, true);
-				}
-			});
-			content.setAttribute('observed', true);
 		}
-	}
+	};
 
 	// U P D A T E HANDLE
 	update = {
 		name: 'WhutBBCode?',
-		version: 8110,
+		version: 8200,
 		key: 'ujs_WBB_UPDT_HR',
 		urij: 'https://hateradio.github.io/wbb/wbb.json',
 		page: 'https://greasyfork.org/en/scripts/1024-whutbbcode',
@@ -290,8 +265,8 @@
 	 */
 	function WhutBB(textarea, id) {
 		this.textarea = textarea;
-		this.textarea.className += ' wbbarea';
-		this.textarea.setAttribute('data-wbb', id);
+		this.textarea.classList.add('wbbarea');
+		this.textarea.dataset.wbb = id;
 		this.id = id;
 		this.wrap = dom.dom('div', { className: 'wbbcode ' + WhutBB.$.getWrapClass() });
 
@@ -348,7 +323,7 @@
 	 * @param textarea to use
 	 */
 	WhutBB.id = function (textarea) {
-		var dat = textarea.getAttribute('data-wbb');
+		var dat = textarea.dataset.wbb;
 		if (dat && dat.length > 0) {
 			return dat;
 		}
@@ -374,7 +349,7 @@
 
 		this.textarea.remove();
 		this.textarea = textarea;
-		this.textarea.className += ' wbbarea';
+		this.textarea.classList.add('wbbarea');
 		this.insert(WhutBB.config.beneath);
 
 		// wouldn't need to do this if the textarea were within the wrap . . .
@@ -393,21 +368,21 @@
 	 * Hides this instance's elements
 	 */
 	WhutBB.prototype.hide = function () {
-		this.wrap.className += ' wbbhide';
+		this.wrap.classList.add('wbbhide');
 	};
 
 	/**
 	 * Shows this instance's elements
 	 */
 	WhutBB.prototype.show = function () {
-		this.wrap.className = this.wrap.className.replace(/(?: wbbhide)/g, '');
+		this.wrap.classList.remove('wbbhide');
 	};
 
 	/**
 	 * Is the instance visible?
 	 */
 	WhutBB.prototype.isVisble = function () {
-		return !/(?:wbbhide)/g.test(this.wrap.className);
+		return !this.wrap.classList.contains('wbbhide');
 	};
 
 	/**
@@ -462,7 +437,7 @@
 		},
 		css: function () {
 			var svgs = WhutBB.$.svgCss();
-			return ' .wbbcode button::-moz-focus-inner{border:0;padding:0}.wbbcode div,.wbbcode ul{margin:.2em;padding:.1em}.wbbset li{display:inline;margin:2px}.wbbset label input{vertical-align:text-bottom}.wbbset li label input{margin:0 3px 0 0}.wbbcode{width:' + WhutBB.config.width + 'px !important;font-size:11px;font-family:Tahoma, sans-serif;margin:auto;padding:3px}.wbbcode div{text-align:center !important}.sidebar .wbbcode {width: 100% !important;}.wbbcode.wbb_noimg button{background-image:none}.wbbcode.wbbimg button span{text-indent:-100px;overflow:hidden;display:inline-block;width:16px;height:16px}.wbbcode.wbbimgless button span{margin:0;background:none}.wbbcode button.whutbbutton{float:none;overflow:hidden;background:#eee;color:#555;font-size:11px;font-family:Arial, sans-serif;font-weight:400;cursor:pointer;width:22px;height:21px;text-shadow:#fff 1px 1px 1px;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #ccc;border-bottom:1px solid #ccc;-moz-border-radius:2px;border-radius:2px;-moz-transition-duration:.2s;-webkit-transition-duration:.2s;-o-transition:none;transition-duration:.2s;vertical-align:middle;margin:0 1px 3px;padding:1px}.wbbcode button:hover{background-color:#fff;color:#555;border-top:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #bbb;border-bottom:1px solid #bbb}.wbbcode button:active span{margin:3px 0 0 1px}.wbblink{padding:2px 0}.wbbemot,.wbbset{overflow:auto;margin:auto}.wbbset{overflow:hidden}.wbbemot{max-height:150px;box-shadow:0 0 3px #777;padding:3px}.wbbemot img,.wbbemot div{cursor:pointer}div.wbbcode button.wbbpressed{background-color:#ddd;border-top:1px solid #aaa;border-left:1px solid #aaa;border-right:1px solid #eee;border-bottom:1px solid #eee}.wbbcon{color:#d06620;height:1em}textarea[id^=editbox]{max-height:400px;overflow:auto!important}.wbbarea{outline-color:#ADD8E6;max-height:500px!important;overflow:auto!important;display:block;margin:3px auto 6px}.wbbshortcut{overflow:hidden;text-align:center;color:#2F2F2F;margin:0;padding:0}.wbbshortcut li{background:#eee;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-radius:2px;display:inline-block;zoom:1;vertical-align:top;margin:3px;padding:1em .5em}* html .wbbshortcut li{display:inline}.wbbshortcut li.wbbnotes{width: 95%;height: auto;}.wbbshortcut li strong {font-weight:bold;border:1px solid #DEDEDE;padding:0 3px;background:#f3f3f3;border-radius:3px;}.wbb-key{display:block;margin: 0 0 4px;}.wbbhide,.hidden.wbbarea{display:none !important}.wbb-svg{height:16px;width:16px}' + svgs;
+			return ' .wbbcode button::-moz-focus-inner{border:0;padding:0}.wbbcode div,.wbbcode ul{margin:.2em;padding:.1em}.wbbset li{display:inline;margin:2px}.wbbset label input{vertical-align:text-bottom}.wbbset li label input{margin:0 3px 0 0}.wbbcode{width:' + WhutBB.config.width + 'px !important;font-size:11px;font-family:Tahoma, sans-serif;margin:auto!important;padding:3px}.wbbcode div{text-align:center !important}.sidebar .wbbcode {width: 100% !important;}.wbbcode.wbb_noimg button{background-image:none}.wbbcode.wbbimg button span{text-indent:-100px;overflow:hidden;display:inline-block;width:16px;height:16px}.wbbcode.wbbimgless button span{margin:0;background:none}.wbbcode button.whutbbutton{float:none;overflow:hidden;background:#eee;color:#555;font-size:11px;font-family:Arial, sans-serif;font-weight:400;cursor:pointer;width:22px;height:21px;text-shadow:#fff 1px 1px 1px;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #ccc;border-bottom:1px solid #ccc;-moz-border-radius:2px;border-radius:2px;-moz-transition-duration:.2s;-webkit-transition-duration:.2s;-o-transition:none;transition-duration:.2s;vertical-align:middle;margin:0 1px 3px;padding:1px}.wbbcode button:hover{background-color:#fff;color:#555;border-top:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #bbb;border-bottom:1px solid #bbb}.wbbcode button:active span{margin:3px 0 0 1px}.wbblink{padding:2px 0}.wbbemot,.wbbset{overflow:auto;margin:auto}.wbbset{overflow:hidden}.wbbemot{max-height:150px;box-shadow:0 0 3px #777;padding:3px}.wbbemot img,.wbbemot div{cursor:pointer}div.wbbcode button.wbbpressed{background-color:#ddd;border-top:1px solid #aaa;border-left:1px solid #aaa;border-right:1px solid #eee;border-bottom:1px solid #eee}.wbbcon{color:#d06620;height:1em}textarea[id^=editbox]{max-height:400px;overflow:auto!important}.wbbarea{outline-color:#ADD8E6;max-height:500px!important;overflow:auto!important;display:block;margin:3px auto 6px}.wbbshortcut{overflow:hidden;text-align:center;color:#2F2F2F;margin:0;padding:0}.wbbshortcut li{background:#eee;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-radius:2px;display:inline-block;zoom:1;vertical-align:top;margin:3px;padding:1em .5em}* html .wbbshortcut li{display:inline}.wbbshortcut li.wbbnotes{width: 95%;height: auto;}.wbbshortcut li strong {font-weight:bold;border:1px solid #DEDEDE;padding:0 3px;background:#f3f3f3;border-radius:3px;}.wbb-key{display:block;margin: 0 0 4px;}.wbbhide,.hidden.wbbarea{display:none !important}.wbb-svg{height:16px;width:16px}' + svgs;
 		},
 		detectSite: function () {
 			var website = WhutBB.gazelle ? ':gazelle' : ':generic';
@@ -866,8 +841,8 @@
 			gz_rule: {tag: 'rule', title: 'Rule', icon: 'infoSquare', display: 'r' },
 			// Panels
 			emoticon: {display: ':]', toggle: ';]', title: 'Emoticons', type: -1, icon: 'emojiSunglasses'},
-			settings: {display: '\u205E', title: 'Settings', type: -1, icon: 'toggles'},
-			shortcut: {display: '?', title: 'Shortcuts', type: -1, icon: 'command'},
+			settings: {display: '\u205D', toggle: '\u2059', title: 'Settings', type: -1, icon: 'toggles'},
+			shortcut: {display: '?', toggle: '\u203D', title: 'Shortcuts', type: -1, icon: 'command'},
 			erase: {display: '-', title: 'Delete Message', type: -2, icon: 'trash'}
 		},
 		emoticons: {
@@ -1058,30 +1033,30 @@
 			},
 			panel: { // panel buttons
 				toggle: function (panel, el) { // el = WhutBB.e.target
-					var visible = /(?:wbbpressed)/i.test(el.className); // panel's current visibility
+					var visible = el.classList.contains('wbbpressed'); // panel's current visibility
 					WhutBB.evt.button.panel.store(el);
 					if (visible) {
-						el.className = el.className.replace(' wbbpressed', '');
-						panel.className += ' wbbhide';
+						el.classList.remove('wbbpressed');
+						panel.classList.add('wbbhide');
 					} else {
 						WhutBB.e.whut.wrap.appendChild(WhutBB.Panel.global[el.name].element);
-						el.className += ' wbbpressed';
-						panel.className = panel.className.replace(' wbbhide', '');
+						el.classList.add('wbbpressed');
+						panel.classList.remove('wbbhide');
 					}
 					WhutBB.evt.button.panel.toggleText(visible, el.firstChild);
 				},
 				toggleText: function (visible, span) {
-					if (span.getAttribute('data-toggle') !== '') {
-						span.firstChild.nodeValue = span.getAttribute(visible ? 'data-txt' : 'data-toggle');
+					if (span.dataset.toggle) {
+						span.firstChild.nodeValue = span.dataset[visible ? 'txt' : 'toggle'];
 					}
 				},
 				store: function (button) {
 					// remove pressed (toggled) state of previous stored button
-					if (WhutBB.evt.button.panel.store[button.name]) {
-						WhutBB.evt.button.panel.store[button.name].className = 'whutbbutton';
-						WhutBB.evt.button.panel.toggleText(true, WhutBB.evt.button.panel.store[button.name].firstChild);
+					if (WhutBB.evt.button.panel.stored[button.name]) {
+						WhutBB.evt.button.panel.stored[button.name].className = 'whutbbutton';
+						WhutBB.evt.button.panel.toggleText(true, WhutBB.evt.button.panel.stored[button.name].firstChild);
 					}
-					WhutBB.evt.button.panel.store[button.name] = button;
+					WhutBB.evt.button.panel.stored[button.name] = button;
 				},
 				stored: {}
 			}
@@ -1091,19 +1066,19 @@
 				var t = WhutBB.e.target;
 				// console.log(t);
 				WhutBB.e.current.stopPropagation();
-				if (+t.getAttribute('data-type') === -3) {
+				if (+t.dataset.type === -3) {
 					// console.log(-3);
 					return WhutBB.evt.button.macro(t.name, WhutBB.e.whut);
 				}
-				if (+t.getAttribute('data-type') === -2) {
+				if (+t.dataset.type === -2) {
 					// console.log(-2);
 					return WhutBB.evt.button.custom[t.name]();
 				}
-				if (+t.getAttribute('data-type') === -1) {
+				if (+t.dataset.type === -1) {
 					// console.log(-1);
 					return WhutBB.evt.button.panel.toggle(WhutBB.Panel.global[t.name].element, t);
 				}
-				if (t.getAttribute('data-type') === 'emoticon') {
+				if (t.dataset.type === 'emoticon') {
 					// console.log(2);
 					return WhutBB.evt.button.emoticon();
 				}
@@ -1118,15 +1093,13 @@
 
 				if (attr.match(/(?:Edit_Form\('(\d+))/)) {
 					id = RegExp.lastParen;
-					// obs(id);
-					// evt.preventDefault();
 					interv = window.setInterval(function () {
 						var txt = document.getElementById('editbox' + id), w;
 
 						if (txt) {
 							window.clearInterval(interv);
 							console.log('clearing', interv);
-							txt.setAttribute('data-wbb', id);
+							txt.dataset.wbb = id;
 
 							w = WhutBB.set[id];
 							if (w) {
@@ -1166,11 +1139,11 @@
 					ps = qp.previousElementSibling;
 				// console.log('inbox');
 				if (/(?:preview)/i.test(attr)) {
-					qp.className += ' wbbhide';
-					ps.className += ' wbbhide';
+					qp.classList.add('wbbhide');
+					ps.classList.add('wbbhide');
 				} else if (/(?:edit)/i.test(attr)) {
-					qp.className = qp.className.replace(/(?: wbbhide)/g, '');
-					ps.className = ps.className.replace(/(?: wbbhide)/g, '');
+					qp.classList.remove('wbbhide');
+					ps.classList.remove('wbbhide');
 				}
 			},
 			settings: { // settings events
@@ -1211,10 +1184,10 @@
 				return (/(?:icon-)/).test(target.getAttribute('class')) ? target.parentNode : target;
 			},
 			down: function () {
-				if (WhutBB.e.target.getAttribute('data-type')) {
+				if (WhutBB.e.target.dataset.type) {
 					return WhutBB.evt.delegate.button();
 				}
-				if (WhutBB.e.target.getAttribute('data-setting')) {
+				if (WhutBB.e.target.dataset.setting) {
 					return WhutBB.evt.delegate.settings.update();
 				}
 			},
