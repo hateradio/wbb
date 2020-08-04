@@ -1,6 +1,6 @@
 ## WhutBBCode? Overview
 
-![WhutBBCode? Image](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
+[<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
 
 ### Install and Source
 
@@ -50,11 +50,18 @@ Shortcut keys were only tested in the above-mentioned browsers.
 *   `Ctrl + m = [img][/img]` (Image)
 *   `Ctrl + d = {Delete}` (Erases your message!)
 
+There are several more depending on the site.
+
 ### Updates
+
+#### 8.2
+
+ *   Replace className and set/getAttribute with classList and dataset
+ *   Fix a margin issue for some stylesheets
 
 #### 8.1.1
 
- *   Adds support for torrentday.com, passthepopcorn.me, myanonamouse.net, broadcasthe.net
+ *   Add support for torrentday.com, passthepopcorn.me, myanonamouse.net, broadcasthe.net
 
 #### 8.1
 

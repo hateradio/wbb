@@ -1,6 +1,6 @@
 ## WhutBBCode? Overview
 
-![WhutBBCode? Image](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
+[<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
 
 ### Install and Source
 
@@ -49,6 +49,8 @@ Shortcut keys were only tested in the above-mentioned browsers.
 *   `Ctrl + h = [url=][/url]` (Link)
 *   `Ctrl + m = [img][/img]` (Image)
 *   `Ctrl + d = {Delete}` (Erases your message!)
+
+There are several more depending on the site.
 
 ### Updates
 
