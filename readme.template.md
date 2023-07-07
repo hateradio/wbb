@@ -2,7 +2,9 @@
 
 [<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
 
-[<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshotd.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshotd.png "WhutBBCode?")
+_Dark Theme_
+
+[<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/dark/screenshotd.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/dark/screenshotd.png "WhutBBCode?")
 
 ### Install and Source
 
