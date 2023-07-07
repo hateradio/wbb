@@ -2,6 +2,8 @@
 
 [<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
 
+[<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/dark/screenshotd.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/dark/screenshotd.png "WhutBBCode?")
+
 ### Install and Source
 
 Install it from Greasy Fork . . . [https://greasyfork.org/en/scripts/1024-whutbbcode](https://greasyfork.org/en/scripts/1024-whutbbcode "WhutBBCode? Install")
