@@ -54,6 +54,10 @@ There are several more depending on the site.
 
 ### Updates
 
+#### 8.3
+
+ *   Adds dark theme support
+
 #### 8.2
 
  *   Replace className and set/getAttribute with classList and dataset
