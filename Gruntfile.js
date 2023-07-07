@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
 
   const fs = require('fs');
+  const check = require('syntax-error');
   const js = fs.readFileSync('whutbbcode.user.js', 'utf8');
 
   // Project configuration.
@@ -32,6 +33,19 @@ module.exports = function (grunt) {
     return true;
   }
 
+  grunt.registerTask('syntax', 'Checking script syntax', function () {
+    const js = fs.readFileSync('whutbbcode.user.js', 'utf8');
+    const error = check(js, 'whutbbcode.user.js')
+
+    grunt.log.write(error)
+    if (error) {
+      grunt.log.error(error);
+      return false;
+    }
+
+    grunt.log.write(`No syntax errors`).ok();
+  });
+
   grunt.registerTask('version', 'Check version', function () {
     const {
       version,
@@ -46,7 +60,7 @@ module.exports = function (grunt) {
     }
 
     grunt.log.write(`Script and update JSON versions are ${version} and ${updateVersion}`).ok();
-  })
+  });
 
   grunt.registerTask('update', 'Generate update.json', function () {
     const update = {
@@ -83,6 +97,7 @@ module.exports = function (grunt) {
   grunt.registerTask('default', `Let's Go!`, function () {
     grunt.log.write('Ensuring all is right . . .').ok();
 
+    grunt.task.run('syntax');
     grunt.task.run('version');
     grunt.task.run('readme');
     grunt.task.run('update');

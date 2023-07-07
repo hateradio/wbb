@@ -22,12 +22,13 @@
     "bbcode"
   ],
   "author": "hateradio",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hateradio/wbb/issues"
   },
   "homepage": "https://github.com/hateradio/wbb#readme",
-  "dependencies": {
+  "devDependencies": {
+    "syntax-error": "^1.4.0",
     "grunt": "^1.3.0"
   }
 }
