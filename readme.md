@@ -2,6 +2,10 @@
 
 [<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshot.png "WhutBBCode?")
 
+_Dark Theme_
+
+[<img alt="WhutBBCode? Screenshot" src="https://raw.githubusercontent.com/hateradio/wbb/master/screenshotd.png" width="473"/>](https://raw.githubusercontent.com/hateradio/wbb/master/screenshotd.png "WhutBBCode?")
+
 ### Install and Source
 
 Install it from Greasy Fork . . . [https://greasyfork.org/en/scripts/1024-whutbbcode](https://greasyfork.org/en/scripts/1024-whutbbcode "WhutBBCode? Install")
@@ -53,6 +57,10 @@ Shortcut keys were only tested in the above-mentioned browsers.
 There are several more depending on the site.
 
 ### Updates
+
+#### 8.3
+
+ *   Adds dark theme support
 
 #### 8.2
 

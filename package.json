@@ -1,6 +1,6 @@
 {
   "name": "wbbc",
-  "version": "8.2.0.0",
+  "version": "8.3.0.0",
   "description": "This is a cross-browser BBCode helper. It works with Gazelle and other sites . . . CDs and waffles, mmm.",
   "main": "whutbbcode.user.js",
   "directories": {
@@ -22,12 +22,13 @@
     "bbcode"
   ],
   "author": "hateradio",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hateradio/wbb/issues"
   },
   "homepage": "https://github.com/hateradio/wbb#readme",
-  "dependencies": {
+  "devDependencies": {
+    "syntax-error": "^1.4.0",
     "grunt": "^1.3.0"
   }
 }
