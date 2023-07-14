@@ -58,6 +58,10 @@ There are several more depending on the site.
 
 ### Updates
 
+#### 8.3.1
+
+ *   SVG icon fix
+
 #### 8.3
 
  *   Adds dark theme support
