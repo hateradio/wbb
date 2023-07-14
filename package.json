@@ -29,6 +29,6 @@
   "homepage": "https://github.com/hateradio/wbb#readme",
   "devDependencies": {
     "syntax-error": "^1.4.0",
-    "grunt": "^1.3.0"
+    "grunt": "^1.5.3"
   }
 }
