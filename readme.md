@@ -58,6 +58,10 @@ There are several more depending on the site.
 
 ### Updates
 
+#### 8.4
+
+ *   -.ch . . . +.sh
+
 #### 8.3.1
 
  *   SVG icon fix
