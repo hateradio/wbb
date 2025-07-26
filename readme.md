@@ -58,6 +58,10 @@ There are several more depending on the site.
 
 ### Updates
 
+##### 8.5
+
+ *   +https
+
 #### 8.4
 
  *   -.ch . . . +.sh
